@@ -1,0 +1,16 @@
+DayZ Dynamic Map
+=================
+A simple dynamic map for "GuruAbdul / DayZ-Private" private server; this simply queries
+the database for player and vehicle positions and then updates their positions on a
+web-based map using AJAX.
+
+Current issues/potential improvements:
+> Needs zoom capability.
+> Accuracy with the background map is terrible at north-west (most likely an issue with
+  the cut-off values).
+> Needs to show player health (perhaps fill the username bar like a health bar).
+
+This project is not guaranteed to be continued, although it may be a useful base or
+place for others to contribute. The reason is because DayZ is soon moving away from
+the ARMA engine (and hence everything will change) and because GuruAbdul is no
+longer maintaining his private server.
