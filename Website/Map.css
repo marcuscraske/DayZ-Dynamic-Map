@@ -1,0 +1,63 @@
+body
+{
+	background: black;
+	margin: 0em;
+	text-align: center;
+	font: normal 12px Verdana;
+}
+#MAP
+{
+	z-index: 1;
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+	background: red;
+}
+.CORDS
+{
+	z-index: 3;
+	position: fixed;
+	top: 0em;
+	left: 0em;
+	width: 100%;
+	text-align: center;
+}
+.CORDS div
+{
+	display: inline-block;
+	background: black;
+	color: white;
+	padding: 0.5em 0.25em;
+	opacity: 0.6;
+	border-radius: 0.5em;
+}
+.MARKER
+{
+	z-index: 2;
+	position: absolute;
+	height: 1.5em;
+	opacity: 0.5;
+	cursor: default;
+}
+.MARKER .B /*Box*/
+{
+	float: left;
+	width: 1.25em;
+	background: red;
+	box-shadow: 0em 0em 0.5em 0.2em black;
+}
+.MARKER .U /*Username*/
+{
+	float: left;
+	background: black;
+	font-size: 0.75em;
+	padding: 0.1em 0.4em;
+	color: #FFF;
+	max-width: 6em;
+	overflow: hidden;
+	height: 1.4em;
+}
+.MARKER.VEHICLE .U /*Vehicle object title */
+{
+    background: blue !important;
+}
